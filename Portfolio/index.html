@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaiManiKanta-Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Sidebar Button (Hamburger Icon) -->
+    <div class="sidebar-btn">
+        &#9776; <!-- This is the hamburger icon -->
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="Main">
+            <h1 id="heading">Sai ManiKanta</h1>
+            <div class="Nav-List">
+              <ul class="Nav-Lits-Item">
+                <li class="Nav-list-Items"> <a href="#home">Home</a> </li>
+                <li class="Nav-list-Items"><a href="#about">About</a></li>
+                <li class="Nav-list-Items"><a href="#skills">Skills</a></li>
+                <li class="Nav-list-Items"><a href="#project">Projects</a></li>
+                <li class="Nav-list-Items"><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sidebar Section -->
+    <div class="sidebar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#project">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- About Section -->
+    <span class="about-heading" id="about">About Me</span>
+    <div class="About">   
+        <div class="about-text">
+           <span id="heading-text">Hello! I'm Sai Manikanta Vaddi,</span> 
+           <p class="para">A highly motivated software engineer with a passion for building scalable, reusable, and high-quality code. I specialize in object-oriented programming, Java, and modern UI frameworks like React. With experience in both back-end and front-end technologies, I strive to adhere to best practices in software development, ensuring that the solutions I create are both efficient and user-friendly.</p><br>
+            <button class="download-btn" onclick="download()">Download Resume</button>
+        </div>
+        <div class="about-img">
+            <img src="./img/MyProfile.jpg" alt="img" srcset="">
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <span class="about-heading" id="skills">Skills</span>
+    <div class="Skills">
+        <div class="Skillset">
+            <img class="Skillset-img" src="./img/Web.png" alt=""><br>
+            <span class="skill-heading">Web-Technology</span>
+        </div>
+        <div class="Skillset">
+            <img class="Skillset-img" src="./img/Reactjs.png" alt=""><br>
+            <span class="skill-heading">ReactJs</span>
+        </div>
+        <div class="Skillset">
+            <img class="Skillset-img" src="./img/Express.png" alt=""><br>
+            <span class="skill-heading">ExpressJs</span>
+        </div>
+        <div class="Skillset">
+            <img class="Skillset-img" src="./img/Java.png" alt=""><br>
+            <span class="skill-heading">Java</span>
+        </div>
+        <div class="Skillset">
+            <img class="Skillset-img" src="./img/servlet.png" alt=""><br>
+            <span class="skill-heading">JSP-Servlet</span>
+        </div>
+        <div class="Skillset">
+            <img class="Skillset-img" src="./img/Hibernate.png" alt="">
+            <span class="skill-heading">Hibernate</span>
+        </div>
+        <div class="Skillset">
+            <img class="Skillset-img" src="./img/Spring.png" alt="">
+            <span class="skill-heading">Spring</span>
+        </div>
+        <div class="Skillset">
+            <img class="Skillset-img" src="./img/Springboot.png" alt="">
+            <span class="skill-heading">SpringBoot</span>
+        </div>
+        <div class="Skillset">
+            <img class="Skillset-img" src="./img/Si.png" alt="">
+            <span class="skill-heading">ScikitLearn</span>
+        </div>
+        <div class="Skillset">
+            <img class="Skillset-img" src="./img/Api.png" alt="">
+            <span class="skill-heading">RestAPI's</span>
+        </div>
+        <div class="Skillset">
+            <img class="Skillset-img" src="./img/Sql.png" alt="">
+            <span class="skill-heading">Sql</span>
+        </div>
+    </div><br><br><br><br>
+
+    <!-- Projects Section with Image Slider -->
+    <span class="about-heading" id="project">Projects</span>
+    <div class="Projects">
+        <div class="slider">
+            <div class="slides">
+                <div class="slide fade">
+                    <a href="https://github.com/Vaddisaimanikanta?tab=repositories"><img src="./img/Ecomerce.jpg" alt="Project 1"></a>
+                    <div class="text-overlay">E-Commerce <br>
+                        Used Java,JSP,Servelt <br>Click To View The Project</div>
+                </div>
+                <div class="slide fade">
+                    <a href="https://github.com/Vaddisaimanikanta?tab=repositories"><img src="./img/resume.jpg" alt="Project 2"></a>
+                    <div class="text-overlay">Resume Builder<br>Used Html,CSS,JavaScript<br>Click To View The Project</div>
+                </div>
+                <div class="slide fade">
+                    <a href="https://github.com/Vaddisaimanikanta?tab=repositories"><img src="./img/Stress.jpg" alt="Project 3"></a>
+                    <div class="text-overlay">Stress Prediction Model<br>Used MachineLearning,DeepLearning Algo<br>Click To View The Project</div>
+                </div>
+                <div class="slide fade">
+                    <a href="https://github.com/Vaddisaimanikanta?tab=repositories"><img src="./img/yummy.png" alt="Project 4"></a>
+                    <div class="text-overlay">Yummy-Yield<br>Used Reactjs <br>Click To View The Project</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-icons">
+                <a href="https://github.com/Vaddisaimanikanta" target="_blank" class="icon-link">
+                    <img src="https://img.icons8.com/ios/50/000000/github.png" alt="GitHub" class="footer-icon"/>
+                </a>
+                <a href="https://www.linkedin.com/in/vaddisaimanikanta" target="_blank" class="icon-link">
+                    <img src="https://img.icons8.com/ios/50/000000/linkedin.png" alt="LinkedIn" class="footer-icon"/>
+                </a>
+                <a href="mailto:vaddisaimani834@gmail.com" class="icon-link">
+                    <img src="https://img.icons8.com/ios/50/000000/email.png" alt="Email" class="footer-icon"/>
+                </a>
+                <a href="tel:" class="icon-link">
+                    <img src="https://img.icons8.com/ios/50/000000/phone.png" alt="Phone" class="footer-icon"/>
+                </a>
+            </div>
+            <p class="footer-text">© 2025 Sai ManiKanta. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
